@@ -1,619 +1,582 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="assets/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="assets/newcss.css" />
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
-    />
-  </head>
 
-  <body oncontextmenu="return false">
-    <header class="header" id="header">
-      <nav class="nav container">
-        <a href="#" class="nav__logo">Abhishek Tripathi</a>
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list grid">
-            <li class="nav__item">
-              <a href="#home" class="nav__link active-link">
-                <i class="uil uil-estate nav__icon"></i>Home
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#about" class="nav__link">
-                <i class="uil uil-user nav__icon"></i>About
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#skills" class="nav__link">
-                <i class="uil uil-file-alt nav__icon"></i>Skills
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#qualification" class="nav__link">
-                <i class="uil uil-briefcase-alt nav__icon"></i>Qualification
-              </a>
-            </li>
-            <li class="nav__item">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="assets/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="assets/newcss.css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+</head>
+
+<body oncontextmenu="return false">
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Abhishek Tripathi</a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list grid">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">
+              <i class="uil uil-estate nav__icon"></i>Home
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">
+              <i class="uil uil-user nav__icon"></i>About
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class="uil uil-file-alt nav__icon"></i>Skills
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#qualification" class="nav__link">
+              <i class="uil uil-briefcase-alt nav__icon"></i>Qualification
+            </a>
+          </li>
+          <!-- <li class="nav__item">
               <a href="#portfolio" class="nav__link">
                 <i class="uil uil-scenery nav__icon"></i>Projects
               </a>
-            </li>
-            <li class="nav__item">
-              <a href="#contact" class="nav__link">
-                <i class="uil uil-message nav__icon"></i>Contact-Me
-              </a>
-            </li>
-          </ul>
-          <i class="uil uil-times nav__close" id="nav-close"></i>
+            </li> -->
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">
+              <i class="uil uil-message nav__icon"></i>Contact-Me
+            </a>
+          </li>
+        </ul>
+        <i class="uil uil-times nav__close" id="nav-close"></i>
+      </div>
+      <div class="nav__btns">
+        <!-- Theme change button -->
+        <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="uil uil-apps"></i>
         </div>
-        <div class="nav__btns">
-          <!-- Theme change button -->
-          <i class="uil uil-moon change-theme" id="theme-button"></i>
+      </div>
+    </nav>
+  </header>
+  <!-- main-->
 
-          <div class="nav__toggle" id="nav-toggle">
-            <i class="uil uil-apps"></i>
+  <main class="main">
+    <!--========================= Home =====================-->
+
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__content grid">
+          <div class="home__social">
+            <a href="https://www.linkedin.com/in/abhishek-tripathi27/" target="_blank" class="home__social-icon">
+              <i class="uil uil-linkedin-alt home__icon"></i>
+            </a>
+
+            <a href="https://github.com/abhishektripathi66" target="_blank" class="home__social-icon">
+              <i class="uil uil-github-alt home__icon"></i>
+            </a>
           </div>
-        </div>
-      </nav>
-    </header>
-    <!-- main-->
+          <div class="home__img">
+            <svg class="home__blob" viewBox="10 -10 150 155" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
 
-    <main class="main">
-      <!--========================= Home =====================-->
-
-      <section class="home section" id="home">
-        <div class="home__container container grid">
-          <div class="home__content grid">
-            <div class="home__social">
-              <a
-                href="https://www.linkedin.com/in/abhishek-tripathi27/"
-                target="_blank"
-                class="home__social-icon"
-              >
-                <i class="uil uil-linkedin-alt home__icon"></i>
-              </a>
-
-              <a
-                href="https://github.com/abhishektripathi66"
-                target="_blank"
-                class="home__social-icon"
-              >
-                <i class="uil uil-github-alt home__icon"></i>
-              </a>
-            </div>
-            <div class="home__img">
-              <svg
-                class="home__blob"
-                viewBox="10 -10 150 155"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-              >
-               
-                  <image
-                    class="home__blob-img"
-                    x="-50"
-                    y="-50"
-                    xlink:href="assets/img/20230924_173344.jpg"
-                  />
-                <!-- </g> -->
-              </svg>
-            </div>
-            <div class="home__data">
-              <h1 class="home__title">Hi, I'm Abhishek Tripathi</h1>
-              <h3 class="home__subtitle">
-                Senior Software Engineer
-              </h3>
-              <p class="home__description">
-                Experienced Cloud Java Developer
-                <strong>HCL Softwares </strong>, Bangalore.
-              </p>
-              <a href="#contact" class="button button--flex">
-                Contact me<i class="uil uil-message button__icon"></i>
-              </a>
-            </div>
+              <image class="home__blob-img" x="-50" y="-50" xlink:href="assets/img/20230924_173344.jpg" />
+              <!-- </g> -->
+            </svg>
           </div>
-
-          <div class="home__scroll">
-            <a href="#about" class="home__scroll-button button--flex">
-              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-              <span class="home__scroll-name">Scroll down</span>
-              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+          <div class="home__data">
+            <h1 class="home__title">Hi, I'm Abhishek Tripathi</h1>
+            <h3 class="home__subtitle">
+              Senior Software Engineer
+            </h3>
+            <p class="home__description">
+              Experienced Cloud Java Developer
+              <strong>HCL Softwares </strong>, Bangalore.
+            </p>
+            <a href="#contact" class="button button--flex">
+              Contact me<i class="uil uil-message button__icon"></i>
             </a>
           </div>
         </div>
-      </section>
 
-      <!--======================= About========================-->
+        <div class="home__scroll">
+          <a href="#about" class="home__scroll-button button--flex">
+            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+            <span class="home__scroll-name">Scroll down</span>
+            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+          </a>
+        </div>
+      </div>
+    </section>
 
-      <section class="about section" id="about">
-        <h2 class="section__title">About Me</h2>
-        <span class="section__subtitle">My introduction</span>
+    <!--======================= About========================-->
 
-        <div class="about__container container grid">
-          <img src="assets\img\20230926_141551.jpg" alt="" class="about__img" />
+    <section class="about section" id="about">
+      <h2 class="section__title">About Me</h2>
+      <span class="section__subtitle">My introduction</span>
 
-          <div class="about__data">
-            <p class="about__description">
-              Sr. Software Engineer with 4 years of diverse experience in Information Technology
-              Performed roles of Technical Lead and Senior Developer for various parts of Java/Java EE Spring boot projects.
-              <br/>
-              Extensive SDLC experience including Requirement Analysis, Preparations of Technical Specifications Document, Design and Coding, Application Implementation, Unit testing, and System Testing, Functional and Regression Testing, and Production Support.
-              Exposure to Azure Cloud technologies along with the docker and kubernetes 
-              <br/>
-              Proficient with Software development methodologies like Agile Methodologies, Waterfall.
-              Strong experience in Client-Server systems using Object Oriented Concepts and Design Patterns.
-              <br/>
-              Proficient in programming with Java/J2EE, JavaScript, Springboot, Spring batch, Spring integration, and strong experience in technologies such as  Spring MVC, Hibernate, JDBC, JNDI, Oracle, and Maven.
-              Exposure to XML, XSLT, CSV, HTML, CSS, Bootstrap.
-              <br/>
-              Extensive experience in tracking boards like Jira Boards, Azure Board, and Confluence.
-              Strong experience in monitoring tools such as Splunk, ServiceNow, and Appdynamics.
-              <br/>
-              Proficient in the quality tools like Nexus, Sonarqube, and  Fortify.
-              Exposure to the Big data Archives like the Nuxeo and Hortonworks.
-              <br/>
-              Design and development of web-based applications using different Web and application servers such as Apache Tomcat, Web Sphere, and Liberty.
-              Technology evaluation & suggesting viable technology-based solutions to the client            </p>
+      <div class="about__container container grid">
+        <img src="assets\img\20230926_141551.jpg" alt="" class="about__img" />
 
-            <div class="about__info">
+        <div class="about__data">
+          <p class="about__description">
+            Sr. Software Engineer with 4 years of diverse experience in Information Technology
+            Performed roles of Technical Lead and Senior Developer for various parts of Java/Java EE Spring boot
+            projects.
+            <br />
+            <br />
+            Extensive SDLC experience including Requirement Analysis, Preparations of Technical Specifications Document,
+            Design and Coding, Application Implementation, Unit testing, and System Testing, Functional and Regression
+            Testing, and Production Support.
+            Exposure to Azure Cloud technologies along with the docker and kubernetes
+            <br />
+            <br />
+            Proficient with Software development methodologies like Agile Methodologies, Waterfall.
+            Strong experience in Client-Server systems using Object Oriented Concepts and Design Patterns.
+            <br />
+            <br />
+            Proficient in programming with Java/J2EE, JavaScript, Springboot, Spring batch, Spring integration, and
+            strong experience in technologies such as Spring MVC, Hibernate, JDBC, JNDI, Oracle, and Maven.
+            Exposure to XML, XSLT, CSV, HTML, CSS, Bootstrap.
+            <br />
+            <br />
+            Extensive experience in tracking boards like Jira Boards, Azure Board, and Confluence.
+            Strong experience in monitoring tools such as Splunk, ServiceNow, and Appdynamics.
+            <br />
+            <br />
+            Proficient in the quality tools like Nexus, Sonarqube, and Fortify.
+            Exposure to the Big data Archives like the Nuxeo and Hortonworks.
+            <br />
+            <br />
+            Design and development of web-based applications using different Web and application servers such as Apache
+            Tomcat, Web Sphere, and Liberty.
+            Technology evaluation & suggesting viable technology-based solutions to the client
+          </p>
+
+          <div class="about__info">
+
+            <div>
+              <span class="about__info-title">03</span>
+              <span class="about__info-name">Frontend <br />
+                Projects</span>
+            </div>
+
+            <div>
+              <span class="about__info-title">04</span>
+              <span class="about__info-name">Backend <br />
+                Projects</span>
+            </div>
+
+            <div>
+              <span class="about__info-title">04+</span>
+              <span class="about__info-name">Years <br />experience</span>
+            </div>
+          </div>
+
+          <div class="about__buttons">
+            <a download="" href="assets\abhishek resume.pdf" class="button button--flex">
+              Download CV<i class="fas fa-download button__icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--===================== SKILLS =====================-->
+
+    <section class="skills section" id="skills">
+      <h2 class="section__title">Skills</h2>
+      <span class="section__subtitle">My technical skills</span>
+
+      <div class="skills__container container grid">
+        <div>
+
+
+          <!--==================== Skill 2 =================-->
+          <div class="skills__content skills__open">
+            <div class="skills__header">
+              <i class="fa fa-cloud skills__icon"></i>
 
               <div>
-                <span class="about__info-title">03</span>
-                <span class="about__info-name"
-                  >Frontend <br />
-                  Projects</span
-                >
+                <h1 class="skills__title">Cloud</h1>
+              </div>
+
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Docker</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Kubernetes</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Azure</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">AWS</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <!--==================== Skill 3 =================-->
+          <div class="skills__content skills__close">
+            <div class="skills__header">
+              <i class="fas fa-code skills__icon"></i>
+              <div>
+                <h1 class="skills__title">Technologies</h1>
+              </div>
+
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Java</h3>
+                </div>
+
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Spring</h3>
+                </div>
+
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">JavaScript</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Angular</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Node.js</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Microservices</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== Qualifications ==================-->
+
+    <section class="qualification__section service__section" id="qualification">
+      <h2 class="section__title">Qualification</h2>
+      <span class="section__subtitle">My personal journey</span>
+
+      <div class="qualification__container container grid services__container">
+        <div class="qualification__tabs">
+          <div class="qualification__button button--flex qualification__active" data-target="#education">
+            <i class="uil uil-graduation-cap qualification__icon"></i>
+            Education
+          </div>
+        </div>
+
+        <div class="qualification__sections">
+          <!--====== Qualification Content 1 ======-->
+          <div class="qualification__content qualifiation__active services__content" data-content id="education">
+            <!--====== Qualification 1 ======-->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">10th</h3>
+                <span class="qualification__subtitle">Mahajana Public School, <br /> CBSE</span>
+                <div class="qualification__calender">
+                  <i class="uil uil-calendar-alt"></i>
+                  - 2013
+                </div>
+                <span class="button button--flex button--small button--link services__button">
+                  View More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+                <div class="services__modal">
+                  <div class="services__modal-content">
+                    <h4 class="services__modal-title">
+                      Class 10th Summary :
+                    </h4>
+                    <i class="uil uil-times services__modal-close"></i>
+                    <ul class="services__modal-services grid">
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+                        <p>
+                          Main stream: Science and Maths
+                        </p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+                        <p>Scored 8.2 CGPA</p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+                        <p>Particated in many Fund raising for Charities</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
 
               <div>
-                <span class="about__info-title">04</span>
-                <span class="about__info-name"
-                  >Backend <br />
-                  Projects</span
-                >
-              </div>
-
-              <div>
-                <span class="about__info-title">04+</span>
-                <span class="about__info-name">Years <br />experience</span>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
               </div>
             </div>
 
-            <div class="about__buttons">
-              <a download="" href="assets\abhishek resume.pdf" class="button button--flex">
-                Download CV<i class="fas fa-download button__icon"></i>
+            <!--====== Qualification 2 ======-->
+            <div class="qualification__data">
+              <div></div>
+
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+              <div>
+                <h3 class="qualification__title">2nd PUC/12th</h3>
+                <span class="qualification__subtitle">Sadvidya Semi residential PUC, <br />KEA state board</span>
+                <div class="qualification__calender">
+                  <i class="uil uil-calendar-alt"></i>
+                  - 2015
+                </div>
+                <span class="button button--flex button--small button--link services__button">
+                  View More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+                <div class="services__modal">
+                  <div class="services__modal-content">
+                    <h4 class="services__modal-title">
+                      PUC Summary :
+                    </h4>
+                    <i class="uil uil-times services__modal-close"></i>
+                    <ul class="services__modal-services grid">
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+                        <p>
+                          Main stream: Electronics
+                        </p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+                        <p>Scored 90.33%</p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+                        <p>Gold medalist in Maths olympiad at college level</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--====== Qualification 3 ======-->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">Undergraduation</h3>
+                <span class="qualification__subtitle">ATME College of Engineering,<br /> VTU university</span>
+                <div class="qualification__calender">
+                  <i class="uil uil-calendar-alt"></i>
+                  2015-2019
+                </div>
+                <span class="button button--flex button--small button--link services__button">
+                  View More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+                <div class="services__modal">
+                  <div class="services__modal-content">
+                    <h4 class="services__modal-title">Undergraduation Summary :</h4>
+                    <i class="uil uil-times services__modal-close"></i>
+                    <ul class="services__modal-services grid">
+
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+                        <p>
+                          Branch: Electronics and communication
+                        </p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>CGPA : 8.14</p>
+                      </li>
+
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+            </div>
+
+            <!--====== Qualification 4 ======-->
+            <div class="qualification__data">
+              <div></div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+              <div>
+                <h3 class="qualification__title">Post-Graduation</h3>
+                <span class="qualification__subtitle">NMIMS, Pune,<br /> NMIMS university</span>
+                <div class="qualification__calender">
+                  <i class="uil uil-calendar-alt"></i>
+                  2020-2022
+                </div>
+                <span class="button button--flex button--small button--link services__button">
+                  View More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+                <div class="services__modal">
+                  <div class="services__modal-content">
+                    <h4 class="services__modal-title">Postgraduation Summary :</h4>
+                    <i class="uil uil-times services__modal-close"></i>
+                    <ul class="services__modal-services grid">
+
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+                        <p>
+                          Course: PGDM
+                          Branch: ITS
+                        </p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>CGPA : 8</p>
+                      </li>
+
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div></div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <!--<span class="qualification__line"></span>-->
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!--=================== Portfolio ===================-->
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section__title">Projects</h2>
+      <span class="section__subtitle">Most recent work</span>
+
+      <div class="portfolio__container container swiper-container">
+        <div class="swiper-wrapper">
+          <!-- ------------------------portfollio 1-------------------- -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/Archivum_Hot-Cold_Data.jpg" class="portfolio__img" />
+
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">
+                Cold Archive Migration
+              </h3>
+              <p class="portfolio__description">
+
+                <b>Clinet:</b> <i>ABN AMRO NL </i>
+                <br/>
+                <br/>
+                As part of this project we migrated the historical data from Hortonworks to Nuxeo, Along with that
+                migrating the live ingestion.
+                <br/>
+                <br/>
+
+
+                <b>Roles and Responsibilites:</b>
+                <br/>
+                Design the complete module for Migration.
+                Developed the Java programs to handle the functionalities like extracting the data from the CSV/XML and
+                validating it and converting the data into a standard XML format.
+                Generate and parse again the XML files to Archive to Nuxeo.
+                Assisted in a module development to Extract the data from the HortonWorks to Convert to Nuxeo Format.
+                Lead the development in a minor part of the Module.
+                Migrated the Live ingestion along with the historical data.
+                Presented the progress in front of the client.
+              </p>
+              <a class="button button--flex button--small portfolio__button">
+                Core Java, XML, Spring, Spring Batch, Spring Integration, Springboot, STS, LIBERTY, Oracle SQL,
+                HortonWorks, Nuxeo, Rest API
+                <!-- <i class="uil uil-external-link-alt button__icon"></i> -->
+              </a>
+              <a class="button button--flex button--small portfolio__button">
+                GitHub · Jenkins · Code Design · Debugging
+                Agile Models.
+                <!-- <i class="uil uil-external-link-alt button__icon"></i> -->
               </a>
             </div>
           </div>
-        </div>
-      </section>
 
-      <!--===================== SKILLS =====================-->
-
-      <section class="skills section" id="skills">
-        <h2 class="section__title">Skills</h2>
-        <span class="section__subtitle">My technical skills</span>
-
-        <div class="skills__container container grid">
-          <div>
-           
-
-            <!--==================== Skill 2 =================-->
-            <div class="skills__content skills__open">
-              <div class="skills__header">
-                <i class="fa fa-cloud skills__icon"></i>
-
-                <div>
-                  <h1 class="skills__title">Cloud</h1>
-                </div>
-
-                <i class="uil uil-angle-down skills__arrow"></i>
-              </div>
-
-              <div class="skills__list grid">
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Docker</h3>
-                  </div>
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Kubernetes</h3>
-                  </div>
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Azure</h3>
-                  </div>
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">AWS</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <!--==================== Skill 3 =================-->
-            <div class="skills__content skills__close">
-              <div class="skills__header">
-                <i class="fas fa-code skills__icon"></i>
-                <div>
-                  <h1 class="skills__title">Technologies</h1>
-                </div>
-
-                <i class="uil uil-angle-down skills__arrow"></i>
-              </div>
-
-              <div class="skills__list grid">
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Java</h3>
-                  </div>
-                  
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Spring</h3>
-                  </div>
-                  
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">JavaScript</h3>
-                  </div>
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Angular</h3>
-                  </div>
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Node.js</h3>
-                  </div>
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Microservices</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!--==================== Qualifications ==================-->
-
-      <section
-        class="qualification__section service__section"
-        id="qualification"
-      >
-        <h2 class="section__title">Qualification</h2>
-        <span class="section__subtitle">My personal journey</span>
-
-        <div
-          class="qualification__container container grid services__container"
-        >
-          <div class="qualification__tabs">
-            <div
-              class="qualification__button button--flex qualification__active"
-              data-target="#education"
-            >
-              <i class="uil uil-graduation-cap qualification__icon"></i>
-              Education
-            </div>
-          </div>
-
-          <div class="qualification__sections">
-            <!--====== Qualification Content 1 ======-->
-            <div
-              class="qualification__content qualifiation__active services__content"
-              data-content
-              id="education"
-            >
-              <!--====== Qualification 1 ======-->
-              <div class="qualification__data">
-                <div>
-                  <h3 class="qualification__title">10th</h3>
-                  <span class="qualification__subtitle"
-                    >Mahajana Public School, <br /> CBSE</span
-                  >
-                  <div class="qualification__calender">
-                    <i class="uil uil-calendar-alt"></i>
-                    - 2013
-                  </div>
-                  <span
-                    class="button button--flex button--small button--link services__button"
-                  >
-                    View More
-                    <i class="uil uil-arrow-right button__icon"></i>
-                  </span>
-                  <div class="services__modal">
-                    <div class="services__modal-content">
-                      <h4 class="services__modal-title">
-                        Class 10th Summary :
-                      </h4>
-                      <i class="uil uil-times services__modal-close"></i>
-                      <ul class="services__modal-services grid">
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__moda-icon"
-                          ></i>
-                          <p>
-                            Main stream: Science and Maths
-                          </p>
-                        </li>
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__moda-icon"
-                          ></i>
-                          <p>Scored 8.2 CGPA</p>
-                        </li>
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__moda-icon"
-                          ></i>
-                          <p>Particated in many Fund raising for Charities</p>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
-              </div>
-
-              <!--====== Qualification 2 ======-->
-              <div class="qualification__data">
-                <div></div>
-
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
-                <div>
-                  <h3 class="qualification__title">2nd PUC/12th</h3>
-                  <span class="qualification__subtitle"
-                    >Sadvidya Semi residential PUC, <br />KEA state board</span
-                  >
-                  <div class="qualification__calender">
-                    <i class="uil uil-calendar-alt"></i>
-                    - 2015
-                  </div>
-                  <span
-                    class="button button--flex button--small button--link services__button"
-                  >
-                    View More
-                    <i class="uil uil-arrow-right button__icon"></i>
-                  </span>
-                  <div class="services__modal">
-                    <div class="services__modal-content">
-                      <h4 class="services__modal-title">
-                        PUC Summary :
-                      </h4>
-                      <i class="uil uil-times services__modal-close"></i>
-                      <ul class="services__modal-services grid">
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__moda-icon"
-                          ></i>
-                          <p>
-                            Main stream: Electronics
-                          </p>
-                        </li>
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__moda-icon"
-                          ></i>
-                          <p>Scored 90.33%</p>
-                        </li>
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__moda-icon"
-                          ></i>
-                          <p>Gold medalist in Maths olympiad at college level</p>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>            
-              </div>
-
-              <!--====== Qualification 3 ======-->
-              <div class="qualification__data">
-                <div>
-                  <h3 class="qualification__title">Undergraduation</h3>
-                  <span class="qualification__subtitle"
-                    >ATME College of Engineering,<br/> VTU university</span
-                  >
-                  <div class="qualification__calender">
-                    <i class="uil uil-calendar-alt"></i>
-                    2015-2019
-                  </div>
-                  <span
-                    class="button button--flex button--small button--link services__button"
-                  >
-                    View More
-                    <i class="uil uil-arrow-right button__icon"></i>
-                  </span>
-                  <div class="services__modal">
-                    <div class="services__modal-content">
-                      <h4 class="services__modal-title">Undergraduation Summary :</h4>
-                      <i class="uil uil-times services__modal-close"></i>
-                      <ul class="services__modal-services grid">
-                        
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__moda-icon"
-                          ></i>
-                          <p>
-                            Branch: Electronics and communication
-                          </p>
-                        </li>
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__modal-icon"
-                          ></i>
-                          <p>CGPA : 8.14</p>
-                        </li>
-                       
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
-              </div>
-              
-               <!--====== Qualification 4 ======-->
-               <div class="qualification__data">
-                <div></div>
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
-                <div>
-                  <h3 class="qualification__title">Post-Graduation</h3>
-                  <span class="qualification__subtitle"
-                    >NMIMS, Pune,<br /> NMIMS university</span
-                  >
-                  <div class="qualification__calender">
-                    <i class="uil uil-calendar-alt"></i>
-                    2020-2022
-                  </div>
-                  <span
-                    class="button button--flex button--small button--link services__button"
-                  >
-                    View More
-                    <i class="uil uil-arrow-right button__icon"></i>
-                  </span>
-                  <div class="services__modal">
-                    <div class="services__modal-content">
-                      <h4 class="services__modal-title">Postgraduation Summary :</h4>
-                      <i class="uil uil-times services__modal-close"></i>
-                      <ul class="services__modal-services grid">
-                        
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__moda-icon"
-                          ></i>
-                          <p>
-                            Course: PGDM
-                            Branch: ITS
-                          </p>
-                        </li>
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__modal-icon"
-                          ></i>
-                          <p>CGPA : 8</p>
-                        </li>
-                       
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div></div>
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <!--<span class="qualification__line"></span>-->
-                </div>
-              </div>
-            </div>
-              
-                
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!--=================== Portfolio ===================-->
-      <section class="portfolio section" id="portfolio">
-        <h2 class="section__title">Projects</h2>
-        <span class="section__subtitle">Most recent work</span>
-
-        <div class="portfolio__container container swiper-container">
-          <div class="swiper-wrapper">
-            <!-- ------------------------portfollio 1-------------------- -->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/portfolio1.png" class="portfolio__img" />
+          <!-- ------------------------portfollio 2-------------------- -->
+           <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/etl-process-1024x709.webp" class="portfolio__img" />
 
               <div class="portfolio__data">
-                <h3 class="portfolio__title">
-                  Responsive-Weather-Forecast-Website
-                </h3>
+                <h3 class="portfolio__title">SBA ETL and Postbox services</h3>
                 <p class="portfolio__description">
-                  This project is a weather website that provides live weather
-                  updates and forecasts based on your location. Stay informed
-                  about current weather conditions, temperature, and more.
-                  Explore interactive maps, hourly/daily forecasts, and helpful
-                  insights. Stay ahead of the forecast and make the most of your
-                  day!
+                <b>Clinet:</b> <i>ABN AMRO NL </i>
+                <br/>
+                <br/>
+                <b>Roles & Responsibilities:</b>
+                <br/>
+                <br/>
+                Design the complete module as per the requirement.
+                Developed the Java programs to handle the functionalities like extracting the data from the CSV/XML and validating it and converting the data into a standard XML format.
+                Generate and parse again the XML files to Archive to Nuxeo.
+                Added the Junit test cases.
+                Added the module for Cyberark and the Elastic search.
+                Lead the development in two Modules.
+                Made the Rest API calls, and the HTTPClient.
+                Supported the production.
+                Resolved the bugs or problems or incidents arising in the Application.
+                Migrating the application to Azure.
+                created alerts in Splunk.
+                Involved in all the scrum ceremonies.
+                Having the ambition to do well in the cloud region by having more hands-on same.
                 </p>
                 <a
-                  href="https://github.com/Venkateeshh/Weather-App"
                   class="button button--flex button--small portfolio__button"
                 >
-                  GitHub Repository
-                  <i class="uil uil-external-link-alt button__icon"></i>
+                Core Java, XML, Spring, Spring Batch, Spring Integration, Springboot, STS, LIBERTY, Oracle SQL, HortonWorks, Nuxeo, Rest API, Microservices, Azure, DevOps, Elastic search, Cyberark, ServiceNow, COnflunece, AppDyanamics, Splunk
+                  <!-- <i class="uil uil-external-link-alt button__icon"></i> -->
                 </a>
                 <a
-                  href="https://venkateeshh.github.io/Weather-App/"
                   class="button button--flex button--small portfolio__button"
                 >
-                  See Live
-                  <i class="uil uil-external-link-alt button__icon"></i>
+                GitHub · Jenkins · Code Design · Debugging · Agile Methodologies
+                  <!-- <i class="uil uil-external-link-alt button__icon"></i> -->
                 </a>
               </div>
-            </div>
-
-            <!-- ------------------------portfollio 2-------------------- -->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/portfolio2.png" class="portfolio__img" />
-
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Spotify-Clone</h3>
-                <p class="portfolio__description">
-                  Spotify Clone is a web app developed using HTML, CSS, and
-                  JavaScript. It recreates Spotify's interface and features,
-                  allowing users to browse, search, and play songs, create
-                  playlists, and discover new music. Responsive design ensures a
-                  seamless experience on any device. Contributions are welcome!
-                </p>
-                <a
-                  href="https://github.com/Venkateeshh/Spotify-Clone"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  GitHub Repository
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-                <a
-                  href="https://venkateeshh.github.io/Spotify-Clone/"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  See Live
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-              </div>
-            </div>
-            <!-- ------------------------portfollio 3-------------------- -->
-            <div class="portfolio__content grid swiper-slide">
+            </div> 
+          <!-- ------------------------portfollio 3-------------------- -->
+          <!-- <div class="portfolio__content grid swiper-slide">
               <img src="assets/img/portfolio3.png" class="portfolio__img" />
 
               <div class="portfolio__data">
@@ -640,10 +603,10 @@
                   <i class="uil uil-external-link-alt button__icon"></i>
                 </a>
               </div>
-            </div>
+            </div> -->
 
-            <!-- ------------------------portfollio 4-------------------- -->
-            <div class="portfolio__content grid swiper-slide">
+          <!-- ------------------------portfollio 4-------------------- -->
+          <!-- <div class="portfolio__content grid swiper-slide">
               <img src="assets/img/portfolio4.png" class="portfolio__img" />
 
               <div class="portfolio__data">
@@ -672,152 +635,129 @@
                 </a>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <!-- add arrows -->
-          <div class="swiper-button-next">
+          <!-- <div class="swiper-button-next">
             <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
           </div>
           <div class="swiper-button-prev">
             <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-          </div>
+          </div> -->
           <!-- add pagination -->
-          <div class="swiper-pagination"></div>
-        </div>
-      </section>
+          <!-- <div class="swiper-pagination"></div>
+        </div> -->
+    </section>
 
-      <!--===================== Contact Me =====================-->
-      <section class="contact section" id="contact">
-        <h2 class="section__title">Contact Me</h2>
-        <span class="section__subtitle">Get in touch</span>
+    <!--===================== Contact Me =====================-->
+    <section class="contact section" id="contact">
+      <h2 class="section__title">Contact Me</h2>
+      <span class="section__subtitle">Get in touch</span>
 
-        <div class="contact__container container grid">
-          <div>
-            <div class="contact__information">
-              <i class="uil uil-calling contact__icon"></i>
+      <div class="contact__container container grid">
+        <div>
+          <div class="contact__information">
+            <i class="uil uil-calling contact__icon"></i>
 
-              <div>
-                <h3 class="contact__title">Contact Me</h3>
-                <span class="contact__subtitle"
-                  ><a href="tel:6362243314"></a>7411282717</span
-                >
-              </div>
-            </div>
-
-            <div class="contact__information">
-              <i class="uil uil-envelope-minus contact__icon"></i>
-
-              <div>
-                <h3 class="contact__title">Email</h3>
-                <span class="contact__subtitle"
-                  >abhishekji66@gmail.com</span
-                >
-              </div>
-            </div>
-
-            <div class="contact__information">
-              <i class="uil uil-map-marker contact__icon"></i>
-
-              <div>
-                <h3 class="contact__title">Location</h3>
-                <span class="contact__subtitle"
-                  >Mysore, Karnataka, India</span
-                >
-              </div>
+            <div>
+              <h3 class="contact__title">Contact Me</h3>
+              <span class="contact__subtitle"><a href="tel:6362243314"></a>7411282717</span>
             </div>
           </div>
 
-          <form action="" class="contact__form grid">
-            <div class="contact__inputs grid">
-              <div class="contact__content">
-                <label for="" class="content__label">Name</label>
-                <input type="text" class="contact__input" />
-              </div>
+          <div class="contact__information">
+            <i class="uil uil-envelope-minus contact__icon"></i>
 
-              <div class="contact__content">
-                <label for="" class="content__label">Email</label>
-                <input type="Email" class="contact__input" />
-              </div>
+            <div>
+              <h3 class="contact__title">Email</h3>
+              <span class="contact__subtitle">abhishekji66@gmail.com</span>
+            </div>
+          </div>
+
+          <div class="contact__information">
+            <i class="uil uil-map-marker contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">Location</h3>
+              <span class="contact__subtitle">Mysore, Karnataka, India</span>
+            </div>
+          </div>
+        </div>
+
+        <form action="" class="contact__form grid">
+          <div class="contact__inputs grid">
+            <div class="contact__content">
+              <label for="" class="content__label">Name</label>
+              <input type="text" class="contact__input" />
             </div>
 
             <div class="contact__content">
-              <label for="" class="content__label">Message</label>
-              <textarea
-                name=""
-                id=""
-                cols="0"
-                rows="7"
-                class="contact__input"
-              ></textarea>
+              <label for="" class="content__label">Email</label>
+              <input type="Email" class="contact__input" />
             </div>
+          </div>
 
-            <div>
-              <a
-                href=" mailto: abhishekji66@gmail.com?subject=Testing out mailto! &body=This is only a test!"
-                class="button button--flex"
-              >
-                Send Message
-                <i class="uil uil-message button__icon"></i>
-              </a>
-            </div>
-          </form>
-        </div>
-      </section>
-    </main>
+          <div class="contact__content">
+            <label for="" class="content__label">Message</label>
+            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+          </div>
 
-    <!--================== Footer ===============-->
-    <footer class="footer">
-      <div class="footer__bg">
-        <div class="footer__container container grid">
           <div>
-            <h1 class="footer__title">Abhishek Tripathi</h1>
-            <span class="footer__subtitle"
-              >Senior Software Engineer</span
-            >
-          </div>
-
-          <ul class="footer__links">
-            <li>
-              <a href="#qualification" class="footer__link">Qualification</a>
-            </li>
-            <li>
-              <a href="#portfolio" class="footer__link">Portfolio</a>
-            </li>
-            <li>
-              <a href="#contact" class="footer__link">Contact-Me</a>
-            </li>
-          </ul>
-
-          <div class="footer__socials">
-            <a
-              href="https://www.instagram.com/venkateeshh/"
-              class="footer__social"
-              target="__blank"
-            >
-            <i class="fa-brands fa-instagram"></i>
-            </a>
-
-            <a
-              href="https://twitter.com/Venkateeshhh"
-              target="__blank"
-              class="footer__social"
-            >
-            <i class="fa-brands fa-x-twitter"></i>
+            <a href=" mailto: abhishekji66@gmail.com?subject=Testing out mailto! &body=This is only a test!"
+              class="button button--flex">
+              Send Message
+              <i class="uil uil-message button__icon"></i>
             </a>
           </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!--================== Footer ===============-->
+  <footer class="footer">
+    <div class="footer__bg">
+      <div class="footer__container container grid">
+        <div>
+          <h1 class="footer__title">Abhishek Tripathi</h1>
+          <span class="footer__subtitle">Senior Software Engineer</span>
         </div>
 
-        <p class="footer__copy">&#169; Abhishek Tripathi. All right reserved</p>
+        <ul class="footer__links">
+          <li>
+            <a href="#qualification" class="footer__link">Qualification</a>
+          </li>
+          <!-- <li>
+              <a href="#portfolio" class="footer__link">Portfolio</a>
+            </li> -->
+          <li>
+            <a href="#contact" class="footer__link">Contact-Me</a>
+          </li>
+        </ul>
+
+        <div class="footer__socials">
+          <a href="https://www.instagram.com/badi2rian/" class="footer__social" target="__blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="https://twitter.com/abhitripathi66" target="__blank" class="footer__social">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+        </div>
       </div>
-    </footer>
 
-    <!--================== SCROLL TOP ==================-->
-    <a href="#" class="scrollup" id="scroll-up">
-      <i class="uil uil-arrow-up scrollup__icon"></i>
-    </a>
+      <p class="footer__copy">&#169; Abhishek Tripathi. All right reserved</p>
+    </div>
+  </footer>
 
-    <script type="text/javascript" src="assets/swiper-bundle.min.js"></script>
-    <script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
-    <script src="assets/ptj.js"></script>
-  </body>
+  <!--================== SCROLL TOP ==================-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
+  </a>
+
+  <script type="text/javascript" src="assets/swiper-bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
+  <script src="assets/ptj.js"></script>
+</body>
+
 </html>
